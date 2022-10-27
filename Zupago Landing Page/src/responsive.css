@@ -1,0 +1,181 @@
+@media (max-width: 500px) {
+    .appLink img {
+        width: 190px !important;
+    }
+
+    .heading {
+        font-size: 30px !important;
+    }
+
+    /* Nav */
+    nav {
+        width: 100%;
+        padding: 30px 0px 30px 30px;
+    }
+
+    nav .CTA :nth-child(1){
+        display: none;
+    }
+
+    nav .navLinks img {
+        width: 130px;
+    }
+
+    nav .navLinks ul {
+        display: none;
+    }
+
+    /* Hero Section */
+    .hero {
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        margin-top: 50px;
+    }
+
+    .hero .txt {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 0 30px;
+    }
+
+    .hero .txt h1 {
+        font-size: 38px;
+        margin-bottom: 10px;
+    }
+    .hero .txt h1>.anim svg {
+        position: absolute;
+        top: -40px;
+        width: 180px;
+        left: -10px;
+        z-index: -999;
+    }
+    .hero .txt .para{
+        margin-bottom: 20px;
+    }
+    .hero .txt .appLink {
+        margin-bottom: 20px;
+    }
+
+    /* Section-1 */
+    .section1 {
+        margin-top: 100px;
+    }
+
+    .section1 .heading {
+        width: 90%;
+    }
+
+    .section1 .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 50px 0 30px;
+    }
+
+    /* Section-2 */
+    .section2 {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 0 30px;
+        margin-top: 100px;
+    }
+
+    .section2 .txt .heading {
+        line-height: inherit;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .section2 .txt {
+        width: 100%;
+    }
+    .section2 .txt .msg{
+        display: none;
+    }
+
+    /* Section-3 */
+    .section3 {
+        display: none;
+    }
+
+    /* Section-4 */
+    .section4 {
+        margin: 100px 0;
+        padding: 70px 0;
+    }
+
+    .section4 .para {
+        width: 90%;
+    }
+
+    /* Section-5 */
+    .section5 {
+        flex-direction: column;
+        padding: 0 30px;
+        height: 100%;
+        gap: 20px;
+        margin-bottom: 80px;
+    }
+
+    .section5 .card{
+        width: 100%;
+        padding: 30px 20px 15px;
+        height: fit-content;
+    }
+
+    .section5 .end {
+        align-self: auto;
+    }
+
+    /* Footer */
+    footer{
+        width: 100%;
+        font-size: 15px;
+        padding:40px 0 20px 0;
+    }
+    footer .top {
+        padding: 0 30px 30px;
+        margin: 0 30px;
+    }
+    footer .top .logo{
+        width: 150px;
+    }
+    footer .top .appLink{
+        display: none;
+    }
+    footer .top .appLink img{
+        width: 100px !important;
+    }
+
+    footer .bottom {
+        flex-direction: column;
+        padding: 30px 30px 0;
+    }
+
+    footer .bottom .left {
+        flex-direction: column;
+    }
+    footer .bottom .left .socialLink img{
+        width: 35px;
+    }
+    footer .bottom .right{
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    .hero .img1 {
+        display: none;
+    }
+
+    .img3,
+    .img2 {
+        display: none;
+    }
+
+}

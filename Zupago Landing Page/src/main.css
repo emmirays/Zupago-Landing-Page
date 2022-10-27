@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+:root {
+    --Blue: #076AFF;
+    --Low-Black: #3E3E3E;
+    --Card-txt-color: #5E648A;
+    --White: #fff;
+}
+
+.btn {
+    padding: 13px 40px;
+    background-color: var(--Blue);
+    font-family: 'Syne', sans-serif;
+    font-size: 20px;
+    width: 193px;
+    font-weight: 500;
+    height: 51px;
+}
+.appLink{
+    display: flex;
+    gap: 20px;
+}
+
+.heading {
+    font-family: 'Syne', sans-serif;
+    font-size: 46px;
+    font-weight: 500;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 30px 100px;
+    border-bottom: 2px solid #CDCDCD;
+    font-family: 'Syne', sans-serif;
+}
+
+nav .navLinks img {
+    width: 163.58px;
+}
+
+
+nav .navLinks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 55%;
+}
+
+nav .navLinks ul {
+    display: flex;
+    gap: 65px;
+}
+
+nav .CTA {
+    display: flex;
+    align-items: center;
+    width: 290px;
+    justify-content: space-between;
+}
+
+nav .CTA .btn {
+    color: var(--White);
+}
+
+/* Hero Scetion */
+.hero {
+    display: flex;
+    font-family: 'Syne', sans-serif;
+    align-items: center;
+    padding: 0 0 0 100px;
+
+    justify-content: space-between;
+}
+.hero .txt{
+    width: 45%;
+}
+.hero .txt h1 {
+    font-size: 66px;
+    margin-bottom: 34px;
+    position: relative;
+}
+
+.hero .txt h1>span {
+    color: var(--Blue);
+}
+
+.hero .txt h1>.anim svg {
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    z-index: -999;
+}
+
+.hero .txt .para {
+    font-size: 18.96px;
+    margin-bottom: 40px;
+    width: 90%;
+    line-height: 24.55px;
+    color: var(--Low-Black);
+}
+
+.hero .txt .appLink {
+    margin-bottom: 50px;
+}
+
+.hero .txt .appLink img {
+    width: 220px;
+}
+
+.hero .txt .appStats {
+    display: flex;
+}
+
+.hero .txt .appStats .activeUsers {
+    padding-right: 40px;
+    border-right: 1px solid #000;
+}
+
+.hero .txt .appStats .Downloads {
+    padding-left: 40px;
+}
+
+.hero .txt .appStats .users {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.hero .txt .appStats .users .count {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45.88px;
+}
+
+.hero .txt .appStats .users .p {
+    font-size: 15px;
+}
+
+.hero .img1 {
+    width: 800px;
+}
+
+
+/* Section-1 */
+.section1 .heading {
+    text-align: center;
+    font-family: 'Syne', sans-serif;
+    font-size: 46px;
+    font-weight: 500;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.section1 .heading>span {
+    color: var(--Blue);
+}
+
+.section1 .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px 0 100px;
+    align-items: center;
+}
+
+.section1 .container .txt p {
+    display: flex;
+    font-family: 'Syne', sans-serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    align-items: center;
+}
+
+.section1 .container .txt p>img {
+    margin-right: 20px;
+}
+
+.section1 .container .img2 {
+    width: 477.82px;
+}
+
+/* Section-2 */
+.section2 {
+    display: flex;
+    align-items: center;
+    padding-right: 100px;
+    position: relative;
+    justify-content: space-between;
+}
+
+.section2 .img3 {
+    width: 750px;
+}
+
+.section2 .txt {
+    width: 45%;
+    font-family: 'Syne', sans-serif;
+    font-size: 18px;
+}
+
+.section2 .txt .heading {
+    width: 80%;
+    line-height: 59.57px;
+    margin-bottom: 10px;
+}
+
+.section2 .txt .para {
+    font-weight: 500;
+    line-height: 23.31px;
+    color: var(--Low-Black);
+}
+
+.section2 .txt .head {
+    font-weight: 600;
+    line-height: 26.46px;
+}
+
+.section2 .txt .list {
+    width: 95%;
+}
+
+.section2 .txt .list p {
+    font-weight: 500;
+    line-height: 26.46px;
+}
+
+.section2 .txt .list p>span {
+    margin-left: 9.5px;
+}
+
+.section2 .txt .msg {
+    position: absolute;
+    right: 170px;
+    bottom: 0;
+}
+
+.section2 .txt .msg span {
+    font-family: 'DM Sans', sans-serif;
+    color: var(--Low-Black);
+    padding: 13px 24px;
+    position: relative;
+    font-weight: 500;
+    bottom: 70px;
+    left: 25px;
+    background: var(--White);
+    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+}
+
+/* Section-3 */
+.section3 {
+    display: flex;
+    margin-top: 90px;
+    padding: 0 10px 0 100px;
+    font-family: 'Syne', sans-serif;
+}
+
+.section3 .txt .heading {
+    line-height: 59.57px;
+    margin-bottom: 24px;
+}
+
+.section3 .txt p {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--Low-Black);
+    line-height: 23.31px;
+    margin-bottom: 34px;
+}
+
+.section3 .img4 {
+    width: 853.33px;
+}
+
+/* Section-4 */
+.section4 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 100px 0 80px;
+    align-items: center;
+    padding: 100px 0;
+    background-image: url(/Assets/banner.png);
+    background-position: center;
+    background-size: cover;
+    font-family: 'Syne', sans-serif;
+    color: var(--White);
+}
+
+.section4 .para {
+    font-size: 18px;
+    line-height: 23.31px;
+    width: 60%;
+}
+
+.section4 .btn {
+    background-color: var(--White);
+    color: var(--Blue);
+}
+
+/* Section-5 */
+.section5 {
+    display: flex;
+    height: 400px;
+    justify-content: space-between;
+    padding: 0 100px 100px;
+}
+
+.section5 .card {
+    text-align: center;
+    width: 440px;
+    padding: 30px 20px 0;
+    height: 250px;
+    font-family: 'Syne', sans-serif;
+    font-weight: 400;
+    color: var(--Card-txt-color);
+    background: #FFFFFF;
+    box-shadow: 0px 3px 35px rgba(0, 0, 0, 0.08);
+    border-radius: 15px;
+}
+
+.section5 .end {
+    align-self: flex-end;
+}
+
+.section5 .card .head {
+    font-size: 18px;
+    margin: 10px 0 7px;
+    font-weight: 500;
+}
+
+.section5 .card .para {
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: -0.02em;
+}
+
+/* Footer */
+footer {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20.2618px;
+    color: var(--Card-txt-color);
+    padding: 40px 0;
+    background: #F7F7F7;
+    border-top: 1px solid #5e648a1a;
+}
+
+footer .top {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px 30px;
+    border-bottom: 1.35px solid #D9D9D9;
+    margin: 0 50px;
+}
+
+footer .top .logo {
+    height: fit-content;
+}
+
+footer .top .appLink img {
+    width: 198.06px;
+}
+
+footer .bottom {
+    display: flex;
+    align-items: center;
+    padding: 30px 100px 0;
+    justify-content: space-between;
+}
+
+footer .bottom .left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+footer .bottom .left p{
+    display: flex;
+    align-items: center;
+}
+footer .bottom .left p>span{
+    font-size: 35px;
+    margin-right: 5px;
+}
+footer .bottom .left .socialLink{
+    display: flex;
+    gap: 30px;
+}
+
+footer .bottom .left .socialLink img {
+    width: 54.03px;
+}
+
+footer .bottom .right {
+    display: flex;
+    gap: 25px;
+}
